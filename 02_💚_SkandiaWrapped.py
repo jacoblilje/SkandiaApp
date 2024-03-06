@@ -6,7 +6,6 @@ Created on Thu Feb 22 13:09:12 2024
 """
 
 import streamlit as st
-import plotly.express as px
 import numpy as np
 import pandas as pd
 from datetime import datetime
