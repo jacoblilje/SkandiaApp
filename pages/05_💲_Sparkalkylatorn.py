@@ -11,14 +11,6 @@ import numpy as np
 #import matplotlib.pyplot as plt
 import time
 from PIL import Image
-import subprocess
-
-# List of packages to install
-packages = ['plotly.graph_objects']
-
-# Install packages using pip
-for package in packages:
-    subprocess.check_call(['pip', 'install', package])
 
 
 
