@@ -1,6 +1,5 @@
 import streamlit as st
 from PIL import Image
-import plotly.graph_objects as go
 
 
 st.set_page_config(
