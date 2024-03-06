@@ -4,7 +4,7 @@ Created on Wed Feb 14 12:59:46 2024
 
 @author: LILJAC
 """
-from turtle import color
+#from turtle import color
 import streamlit as st
 import pandas as pd
 import numpy as np
