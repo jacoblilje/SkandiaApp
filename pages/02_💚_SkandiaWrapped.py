@@ -16,7 +16,6 @@ from pyecharts.charts import Bar
 from streamlit_echarts import st_pyecharts
 from random import randint
 import streamlit as st
-from streamlit_echarts import JsCode
 from streamlit_echarts import st_echarts
 import time
 import math
