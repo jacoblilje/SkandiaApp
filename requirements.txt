@@ -1,7 +1,6 @@
 plotly
 streamlit_lchart_card
 scipy
-pickle
 pyecharts
 streamlit_echarts
 pydeck
