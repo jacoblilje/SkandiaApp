@@ -4,46 +4,6 @@ import numpy as np
 import pandas as pd
 import subprocess
 
-try:
-  # replace "yourpackage" with the package you want to import
-  import streamlit as st
-  import numpy as np
-  import pandas as pd
-  from datetime import datetime
-  from streamlit_lchart_card import streamlit_lchart_card
-  import plotly.graph_objects as go
-  from pyecharts import options as opts
-  from pyecharts.charts import Bar
-  from streamlit_echarts import st_pyecharts
-  from random import randint
-  import streamlit as st
-  from streamlit_echarts import JsCode
-  from streamlit_echarts import st_echarts
-  import time
-  import math
-  import pydeck as pdk
-
-# This block executes only on the first run when your package isn't installed
-except ModuleNotFoundError as e:
-  subprocess.open([f'{sys.executable} -m pip install git+https://${{token}}@github.com/jacoblilje/SkandiaApp.git'], shell=True)
-  # wait for subprocess to install package before running your actual code below
-  time.sleep(90)
-import streamlit as st
-import numpy as np
-import pandas as pd
-from datetime import datetime
-from streamlit_lchart_card import streamlit_lchart_card
-import plotly.graph_objects as go
-from pyecharts import options as opts
-from pyecharts.charts import Bar
-from streamlit_echarts import st_pyecharts
-from random import randint
-import streamlit as st
-from streamlit_echarts import JsCode
-from streamlit_echarts import st_echarts
-import time
-import math
-import pydeck as pdk
 
 st.set_page_config(
     page_title="Om SkandiaTipset",
