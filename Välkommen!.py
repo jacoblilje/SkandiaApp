@@ -3,7 +3,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import subprocess
-pip install -r requirements.txt
+
 
 
 st.set_page_config(
