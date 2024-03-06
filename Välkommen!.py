@@ -4,7 +4,14 @@ import numpy as np
 import pandas as pd
 import subprocess
 
+import subprocess
 
+# List of packages to install
+packages = ['plotly']
+
+# Install packages using pip
+for package in packages:
+    subprocess.check_call(['pip', 'install', package])
 
 
 st.set_page_config(
