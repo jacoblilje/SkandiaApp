@@ -11,6 +11,18 @@ import numpy as np
 #import matplotlib.pyplot as plt
 import time
 from PIL import Image
+import subprocess
+
+# List of packages to install
+packages = ['plotly']
+
+# Install packages using pip
+for package in packages:
+    subprocess.check_call(['pip', 'install', package])
+
+
+
+
 import plotly.graph_objects as go
 # Function to calculate the future balance
 def calculate_balance(current_balance, expected_yearly_return, monthly_savings, investment_horizon_years, time_to_pension):
