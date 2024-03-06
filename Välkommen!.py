@@ -2,19 +2,7 @@ import streamlit as st
 import streamlit as st
 import numpy as np
 import pandas as pd
-from datetime import datetime
-from streamlit_lchart_card import streamlit_lchart_card
-import plotly.graph_objects as go
-from pyecharts import options as opts
-from pyecharts.charts import Bar
-from streamlit_echarts import st_pyecharts
-from random import randint
-import streamlit as st
-from streamlit_echarts import JsCode
-from streamlit_echarts import st_echarts
-import time
-import math
-import pydeck as pdk
+
 
 st.set_page_config(
     page_title="Om SkandiaTipset",
