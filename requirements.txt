@@ -1,2 +1,3 @@
 plotly
-streamlit-chart-card
+streamlit_chart_card
+scipy
