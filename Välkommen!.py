@@ -2,7 +2,18 @@ import streamlit as st
 import streamlit as st
 import numpy as np
 import pandas as pd
+import subprocess
 
+try:
+  # replace "yourpackage" with the package you want to import
+  import time
+
+# This block executes only on the first run when your package isn't installed
+except ModuleNotFoundError as e:
+  subprocess.Popen([f'{sys.executable} -m pip install git+https://${{token}}@github.com/jacoblilje/SkandiaApp.git'], shell=True)
+  # wait for subprocess to install package before running your actual code below
+  time.sleep(90)
+import time
 
 st.set_page_config(
     page_title="Om SkandiaTipset",
