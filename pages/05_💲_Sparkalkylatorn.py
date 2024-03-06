@@ -14,7 +14,7 @@ from PIL import Image
 import subprocess
 
 # List of packages to install
-packages = ['plotly']
+packages = ['plotly.graph_objects']
 
 # Install packages using pip
 for package in packages:
