@@ -4,4 +4,4 @@ scipy
 pyecharts
 streamlit_echarts
 pydeck
-scikit-learn
+scikit-learn == 1.3.0
