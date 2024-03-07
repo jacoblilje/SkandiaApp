@@ -4,3 +4,4 @@ scipy
 pyecharts
 streamlit_echarts
 pydeck
+scikit-learn
